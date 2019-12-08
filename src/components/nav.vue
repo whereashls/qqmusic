@@ -60,7 +60,8 @@ export default {
 <style scoped>
 .nav{
   position:fixed;
-  padding-top:4px;
+  /* padding-top:10px; */
+  margin: 10px;
   bottom:0;
   height: 40px;
   display:flex;

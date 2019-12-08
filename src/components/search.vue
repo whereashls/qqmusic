@@ -1,27 +1,27 @@
 <template>
-  <div class="search">
-    <!-- 名字 -->
-    <div class="search-name">音乐馆</div>
-    <!-- 输入框 -->
-    <div class="search-input">
-      <input type="text" placeholder="搜索好听的歌曲">
+    <div class="search">
+      <!-- 名字 -->
+      <div class="search-name">音乐馆</div>
+      <!-- 输入框 -->
+      <div class="search-input">
+        <input type="text" placeholder="搜索好听的歌曲">
+      </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
 .search{
   background: #fff;
   color:black;
-  height: 70px;
+  /* height: 30px; */
   /* padding: 0 20px; */
   display:flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0; */
   width: 100%;
-  margin:0;
+  /* margin:0; */
 }
 .search .search-name{
   font-size:18px;
