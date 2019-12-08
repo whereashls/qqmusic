@@ -3,7 +3,7 @@
     <!-- 搜索栏 -->
     <search></search>
     <!-- 轮播图 -->
-    <img class="img" alt="轮播图" src="../assets/1.jpg">
+    <img class="img" alt="轮播图" src="@/assets/images/1.jpg">
     <!-- 五个图标+五个页面 -->
      <div class="new">
         <!-- <div class="nav-item" :class="{ select :name === 'Singer'}" @click="to(Singer)"> -->
@@ -48,8 +48,8 @@
      </div>
       <!-- 推荐卡片 -->
         <div class="recommended">
-           <img class="image" alt="推荐卡片" src="../assets/11.jpg">
-           <img class="image" alt="推荐卡片" src="../assets/12.jpg">
+           <img class="image" alt="推荐卡片" src="@/assets/images/11.jpg">
+           <img class="image" alt="推荐卡片" src="@/assets/images/12.jpg">
         </div>
 
         <!-- 官方歌单 -->
@@ -62,15 +62,15 @@
           <div class="down-pic-words">
               <div class="up-pic">
                 <div class="together">
-                   <img class="image" src="../assets/21.jpg">
+                   <img class="image" src="@/assets/images/21.jpg">
                    <div class="down-words">青春</div>
                 </div>
                  <div class="together">
-                   <img class="image" src="../assets/22.jpg">
+                   <img class="image" src="@/assets/images/22.jpg">
                    <div class="down-words">青春</div>
                  </div>
                   <div class="together">
-                   <img class="image" src="../assets/23.jpg">
+                   <img class="image" src="@/assets/images/23.jpg">
                    <div class="down-words">青春</div>
                   </div>
               </div>
